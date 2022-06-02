@@ -1,7 +1,7 @@
 # NSFWSecurity
 This mod is just a part of a system I created to help VRChat users hide their NSFW parts from everyone but the users who use the mod or followed the tutorial.
 
-Big thanks to Jace, creator of vibes goes brrrr, for the utility and the vrchook script :https://gitlab.com/jacefax/vibegoesbrrr
+Big thanks to Jace, creator of vibes goes brrrr, for the util and the vrchook script :https://gitlab.com/jacefax/vibegoesbrrr
 
 <b>Note that this mod/avatar setup works everywhere, but it's intended to be used only in private instances, so if you use it in a public/friend+ instance, do so at your own risk. I am in no way responsible if you get caught/banned for using it in a public/friend+ instance.</b>
 
