@@ -12,6 +12,8 @@ the system is easy to understand... what if vrchat provided a NSFW marker that y
 
 that's what i'm trying to make with the avatar dynamics system, in that page there's a full tutorial to setup your avatar with that security, there's also a melon loader mod here that provide a button in game to allow or disallow viewing nsfw : https://github.com/Olskor/NSFWSecurity/releases/tag/v0.0.1-alpha.
 
+![Animation](https://user-images.githubusercontent.com/105324070/171638875-cc312f0e-c2ca-41b2-97ae-b025e5d3c747.gif)
+
 this system work with to parts:
 
 -a part is only the "client" part, it is here to allow you to see the NSFW that a person authorizes you to see, if you don't have this part on your avatar, you won't be able to see the animations of the other person even if he authorizes you.
