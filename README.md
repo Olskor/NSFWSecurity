@@ -7,8 +7,12 @@ big thanks to Jace, creator vibes goes brrrr, for the util and vrchook script :h
 
 Explanation:
 
-the system is easy to understand... what if vrchat provided a NSFW marker that you can enable on certain parameter ? a marked parameter that will, in game, hide your nsfw to anyone that don't allowed it, to make your nsfw private
-that's what i'm trying to make with the avatar dynamics system, in that page there's a full tutorial to setup your avatar with that security, there's also a melon loader mod here that provide a button in game to allow or disallow viewing nsfw : https://github.com/Olskor/NSFWSecurity/releases/tag/v0.0.1-alpha.
+the system is easy to understand... what if vrchat provided a NSFW marker that you can enable on certain parameter ? a marked parameter that will, in game, hide your nsfw to anyone that don't allowed it, to make your nsfw private.
+
+That's what i'm trying to make with the avatar dynamics system, in that page there's a full tutorial to setup your avatar with that security, there's also a melon loader mod here that provide a button in game to allow or disallow viewing nsfw : https://github.com/Olskor/NSFWSecurity/releases/tag/v0.0.1-alpha.
+
+with that you would be able to hide your nsfw to anyone except people who you authorised vrchat avatar interaction with.
+you can also add a button in the avatar setup to make everyone able to see your nsfw
 
 ![Animation](https://user-images.githubusercontent.com/105324070/171638875-cc312f0e-c2ca-41b2-97ae-b025e5d3c747.gif)
 
