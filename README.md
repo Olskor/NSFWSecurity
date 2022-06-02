@@ -21,4 +21,4 @@ here's the tutorial that explain everything about this security and explain how 
 
 NOTE: you don't need to follow the first step if you install the mod, the mod only replicate the first step automatically to make every friends able to see your nsfw parts without setting up their avatar.
 
-![explanation contact](https://user-images.githubusercontent.com/105324070/171458024-1f34be16-643f-4f21-978e-fcc5925050d3.png)
+![explanation contact](https://user-images.githubusercontent.com/105324070/171626554-f3cc1c64-8fc4-4e82-b8a4-5e7a51e91207.png)
