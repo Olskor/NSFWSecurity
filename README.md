@@ -1,5 +1,5 @@
 # NSFWSecurity
-this mod is just a part of a system i created to help VRChat users to hide their NSFW parts from everyone but the users who use the mod or followed the tutorial.
+this mod is just a part of a system I created to help VRChat users to hide their NSFW parts from everyone but the users who use the mod or followed the tutorial.
 
 big thanks to Jace, creator of vibes goes brrrr, for the util and the vrchook script :https://gitlab.com/jacefax/vibegoesbrrr
 
