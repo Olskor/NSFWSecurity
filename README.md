@@ -8,6 +8,7 @@ big thanks to Jace, creator vibes goes brrrr, for the util and vrchook script :h
 Explanation:
 
 the system is easy to understand... what if vrchat provided a way to make some object or animation private on your avatar ? a way to make those object only able to be seen by your friends that have authorised it.
+
 That's what i made, if you follow the tutorial to setup your avatar only people that you have authorized to use avatar pose/interaction and that have installed the mod (or followed the tutorial) would be able to see your NSFW.
 you will also have a button to bypass this security and make everyone able to see your NSFW.
 
