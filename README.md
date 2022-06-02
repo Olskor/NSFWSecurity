@@ -1,9 +1,14 @@
 # NSFWSecurity
 this mod is just a part of a system I created to help VRChat user to show their NSFW parts to only users that uses the mod or have followed the tutorial.
 
+<p><strong><span style="color: #ff0000;">Note that this mod/avatar setup work everywhere, but it is intended to be used only in private instances, so if you use it in public/friend+ instance, do it at your own risks, i'm not in any case responsible if you get caught/banned because you used it in friend+/public</span></strong></p>
+
 Explanation:
 
-this avatar setup/mod is used to make you able to show some animation/object in your avatar to only the group of person you want, it's based on the new avatar dynamic mechanic, so, you can choose who can or cannot see your animation by allowing/disallowing interaction with them.
+the system is easy to understand... what if vrchat provided a NSFW marker that you can enable on certain parameter ? a marked parameter that will, in game, not be updated if you have not ticked a "allow nsfw" case in your safety settings.
+
+that's what i'm trying to make with the avatar dynamics system, here's a github page with a full tutorial to setup your avatar with that security, there's also a melon loader mod in it that add a button in game to allow or disallow viewing nsfw.
+
 this system work with to parts:
 
 -a part is only the "client" part, it is here to allow you to see the NSFW that a person authorizes you to see, if you don't have this part on your avatar, you won't be able to see the animations of the other person even if he authorizes you.
