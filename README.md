@@ -14,7 +14,7 @@ you will also have a button to bypass this security and make everyone able to se
 
 in that page there's a full tutorial to setup your avatar with that security, there's also a melon loader mod here that provide a button in game to allow or disallow viewing nsfw (this button only work with avatar that have the setup) : https://github.com/Olskor/NSFWSecurity/releases/tag/v0.0.1-alpha.
 
-![Animation](https://user-images.githubusercontent.com/105324070/171638875-cc312f0e-c2ca-41b2-97ae-b025e5d3c747.gif)
+![Animation](https://user-images.githubusercontent.com/105324070/171660715-2f53686b-1111-4aeb-beca-34b5949bc04c.gif)
 
 this system work with to parts:
 
