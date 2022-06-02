@@ -19,7 +19,7 @@ This works in two parts :
 
 One part is only the "client" part, it's there to allow you to see the NSFW elements a person authorizes you to see. If you don't have this part on your avatar, you won't be able to see the animations of the other person even if they authorize you. <b>This is the part my mod automates, so if you install my mod you don't need to modify your avatar to see NSFW bits of those who authorize you.</b>
 
-<b>The other part is the "provider" part, it is there to hide your chosen animations and wait for an authorized client to see the part. This part is not supported by my mod because it's too complex, to protect your NSFW parts from being seen unintentionally you have to modify your avatar using the tutorial provided below!</b>
+The other part is the "provider" part, it is there to hide your chosen animations and wait for an authorized client to see the part. <b>This part is not supported by my mod because it's too complex, to protect your NSFW parts from being seen unintentionally you have to modify your avatar using the tutorial provided below!</b>
 
 Here is the tutorial that explains everything about this security and how to set it up on your avatar.
 
