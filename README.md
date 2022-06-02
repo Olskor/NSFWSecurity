@@ -1,5 +1,5 @@
 # NSFWSecurity
-this mod is just a part of a system I created to help VRChat user to show their NSFW parts to only users that uses the mod or have followed the tutorial.
+this mod is just a part of a system I created to help VRChat user to hide their NSFW parts to everyone excepts users that uses the mod or have followed the tutorial.
 
 big thanks to Jace, creator vibes goes brrrr, for the util and vrchook script :https://gitlab.com/jacefax/vibegoesbrrr
 
@@ -7,8 +7,7 @@ big thanks to Jace, creator vibes goes brrrr, for the util and vrchook script :h
 
 Explanation:
 
-the system is easy to understand... what if vrchat provided a NSFW marker that you can enable on certain parameter ? a marked parameter that will, in game, not be updated for anyone that have not ticked an "allow nsfw" case in his safety settings.
-
+the system is easy to understand... what if vrchat provided a NSFW marker that you can enable on certain parameter ? a marked parameter that will, in game, hide your nsfw to anyone that don't allowed it, to make your nsfw private
 that's what i'm trying to make with the avatar dynamics system, in that page there's a full tutorial to setup your avatar with that security, there's also a melon loader mod here that provide a button in game to allow or disallow viewing nsfw : https://github.com/Olskor/NSFWSecurity/releases/tag/v0.0.1-alpha.
 
 ![Animation](https://user-images.githubusercontent.com/105324070/171638875-cc312f0e-c2ca-41b2-97ae-b025e5d3c747.gif)
