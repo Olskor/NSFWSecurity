@@ -7,19 +7,18 @@ big thanks to Jace, creator vibes goes brrrr, for the util and vrchook script :h
 
 Explanation:
 
-the system is easy to understand... what if vrchat provided a NSFW marker that you can enable on certain parameter ? a marked parameter that will, in game, hide your nsfw to anyone that don't allowed it, to make your nsfw private.
+the system is easy to understand... what if vrchat provided a way to make some object or animation private on your avatar ? a way to make those object only able to be seen by your friends that have authorised it.
+That's what i made, if you follow the tutorial to setup your avatar only people that you have authorized to use avatar pose/interaction and that have installed the mod (or followed the tutorial) would be able to see your NSFW.
+you will also have a button to bypass this security and make everyone able to see your NSFW.
 
-That's what i'm trying to make with the avatar dynamics system, in that page there's a full tutorial to setup your avatar with that security, there's also a melon loader mod here that provide a button in game to allow or disallow viewing nsfw : https://github.com/Olskor/NSFWSecurity/releases/tag/v0.0.1-alpha.
-
-with that you would be able to hide your nsfw to anyone except people who you authorised vrchat avatar interaction with.
-you can also add a button in the avatar setup to make everyone able to see your nsfw
+in that page there's a full tutorial to setup your avatar with that security, there's also a melon loader mod here that provide a button in game to allow or disallow viewing nsfw (this button only work with avatar that have the setup) : https://github.com/Olskor/NSFWSecurity/releases/tag/v0.0.1-alpha.
 
 ![Animation](https://user-images.githubusercontent.com/105324070/171638875-cc312f0e-c2ca-41b2-97ae-b025e5d3c747.gif)
 
 this system work with to parts:
 
 -a part is only the "client" part, it is here to allow you to see the NSFW that a person authorizes you to see, if you don't have this part on your avatar, you won't be able to see the animations of the other person even if he authorizes you.
-This is the part that my mod automates, so if you install my mod you don't need to modify your avatar to see the NSFW of those who allow you.
+<b>This is the part that my mod automates, so if you install my mod you don't need to modify your avatar to see the NSFW of those who allow you.</b>
 
 -the other part is the "provider" part, it is there to hide your chosen animations and wait for an authorized client to see the part.
 <b>this part is not supported by my mod because it is too complex, to protect your NSFW you have to modify your avatar using the tutorial provided below !</b>
