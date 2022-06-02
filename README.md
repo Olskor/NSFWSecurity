@@ -5,7 +5,7 @@ this mod is just a part of a system I created to help VRChat user to show their 
 
 Explanation:
 
-the system is easy to understand... what if vrchat provided a NSFW marker that you can enable on certain parameter ? a marked parameter that will, in game, not be updated for anyone that have not ticked an "allow nsfw" case in your safety settings.
+the system is easy to understand... what if vrchat provided a NSFW marker that you can enable on certain parameter ? a marked parameter that will, in game, not be updated for anyone that have not ticked an "allow nsfw" case in his safety settings.
 
 that's what i'm trying to make with the avatar dynamics system, in that page there's a full tutorial to setup your avatar with that security, there's also a melon loader mod here that provide a button in game to allow or disallow viewing nsfw : https://github.com/Olskor/NSFWSecurity/releases/tag/v0.0.1-alpha.
 
