@@ -2,7 +2,6 @@
 this mod is just a part of a system I created to help VRChat user to show their NSFW parts to only users that uses the mod or have followed the tutorial.
 
 big thanks to Jace, creator vibes goes brrrr, for the util and vrchook script :https://gitlab.com/jacefax/vibegoesbrrr
-and thanks to Ikeiwa that helped me a lot to create this mod : https://github.com/Ikeiwa
 
 <p><strong><span style="color: #ff0000;">Note that this mod/avatar setup work everywhere, but it is intended to be used only in private instances, so if you use it in public/friend+ instance, do it at your own risks, i'm not in any case responsible if you get caught/banned because you used it in friend+/public</span></strong></p>
 
