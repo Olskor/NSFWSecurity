@@ -8,8 +8,6 @@ using UnityEngine;
 using VRC.SDKBase;
 using VRC.SDK3.Dynamics.Contact;
 using VRChatUtilityKit.Utilities;
-using UIExpansionKit.API;
-using UIExpansionKit.API.Controls;
 
 namespace NSFWSecurity
 {
