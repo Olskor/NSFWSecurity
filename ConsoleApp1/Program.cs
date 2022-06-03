@@ -27,7 +27,7 @@ namespace NSFWSecurity
             {
                 try
                 {
-                    VRCUtils.ReloadAvatar(Util.LocalPlayer);
+                    VRCUtils.ReloadAllAvatars();
                 }
                 catch (Exception ex)
                 {
@@ -38,14 +38,36 @@ namespace NSFWSecurity
 
         private void VRCHooks_AvatarIsReady(object sender, VRCPlayer player)
         {
-            if (!ourIsEnabled.Value) return;
             if (player == Util.LocalPlayer)
             {
-                var avatar = player.GetComponentInChildren<VRCAvatarManager>().gameObject.GetComponentInChildren<VRC.SDK3.Avatars.Components.VRCAvatarDescriptor>();
+                var avatar = player.GetComponentInChildren<VRC.SDK3.Avatars.Components.VRCAvatarDescriptor>();
                 if (!avatar) return;
-                var contactSender = avatar.gameObject.AddComponent<VRC.Dynamics.ContactSender>();
-                contactSender.collisionTags.Add("NSFW");
-                contactSender.radius = 5;
+
+                VRC.Dynamics.ContactSender contactSender;
+                VRC.Dynamics.ContactSender[] contacts;
+                contacts = avatar.gameObject.GetComponentsInChildren<VRC.Dynamics.ContactSender>();
+
+                VRC.Dynamics.ContactSender contact = contacts.FirstOrDefault(c => c.collisionTags.Contains("NSFW"));
+                if (contact != null)
+                {
+                    contactSender = contact;
+                    if (!ourIsEnabled.Value)
+                    {
+                        Component.Destroy(contactSender);
+                        return;
+                    }
+                } else
+                {
+                    contactSender = avatar.gameObject.AddComponent<VRC.Dynamics.ContactSender>();
+
+                    contactSender.collisionTags.Add("NSFW");
+                    contactSender.radius = 5;
+                    if (!ourIsEnabled.Value)
+                    {
+                        Component.Destroy(contactSender);
+                        return;
+                    }
+                }
             }
         }
     }
