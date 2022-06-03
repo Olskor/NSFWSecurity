@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using MelonLoader;
 
-[assembly: MelonInfo(typeof(NSFWSecurity.Program), "NSFWSecurityMod", "0.0.2", "Olskor")]
+[assembly: MelonInfo(typeof(NSFWSecurity.Program), "NSFWSecurityMod", "0.0.3", "Olskor")]
 [assembly: MelonGame("VRChat", "VRChat")]
 
 // Les informations générales relatives à un assembly dépendent de
