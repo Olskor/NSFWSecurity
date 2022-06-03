@@ -7,6 +7,9 @@ using MelonLoader;
 using UnityEngine;
 using VRC.SDKBase;
 using VRC.SDK3.Dynamics.Contact;
+using VRChatUtilityKit.Utilities;
+using UIExpansionKit.API;
+using UIExpansionKit.API.Controls;
 
 namespace NSFWSecurity
 {
@@ -22,6 +25,17 @@ namespace NSFWSecurity
 
             var category = MelonPreferences.CreateCategory("NSFWSecurity", "NSFWSecurity");
             ourIsEnabled = category.CreateEntry("Enabled", true, "Enable NSFW");
+            ourIsEnabled.OnValueChanged += (_, v) =>
+            {
+                try
+                {
+                    VRCUtils.ReloadAvatar(Util.LocalPlayer);
+                }
+                catch (Exception ex)
+                {
+                    LoggerInstance.Error("Error while reloading avatar:\n" + ex.ToString());
+                } // Ignore
+            };
         }
 
         private void VRCHooks_AvatarIsReady(object sender, VRCPlayer player)
