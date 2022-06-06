@@ -11,6 +11,8 @@ What if VRChat offered a way to make certain objects or animations private on yo
 
 If you follow the tutorial to set up your avatar, only the people you allowed to use the avatar pose/interaction and who installed the mod (or followed the tutorial) will be able to see NSFW parts on your avatar. You'll also have a button to bypass this security and make everyone able to see your NSFW parts.
 
+<b>To be able to see the NSFW of your friend that have the security, you need to enable the mod and you both need to activate interaction (the yellow hand icon under the nametag) beetween each other. note that the NSFW animations updates only within 6 meter around the player because of avatar dynamics limitations.</b>
+
 In this GitHub there's a full tutorial to setup your avatar with this security, there's also a Melonloader mod here that provides a button in game to enable/disable seeing other's NSFW bits. (This button only work with avatar that have the setup) : https://github.com/Olskor/NSFWSecurity/releases/tag/v0.0.3-alpha.
 
 ![Animation](https://user-images.githubusercontent.com/105324070/171660715-2f53686b-1111-4aeb-beca-34b5949bc04c.gif)
